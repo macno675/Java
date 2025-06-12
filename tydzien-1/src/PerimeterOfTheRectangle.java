@@ -26,7 +26,6 @@ public class PerimeterOfTheRectangle {
             System.out.printf("Area of the rectangle: %.2f%n", area);
         } catch (Exception e) {
             System.out.println("Error: Invalid value");
-            return;
         } finally {
             scanner.close();
         }
